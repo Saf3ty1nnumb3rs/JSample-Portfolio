@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+}
+*:before, *:after {
+
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin:0;
+    color: #FFFFFF;
+}
+div {
+    display: block;
+}
+h1 {
+font-weight: 100;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.head-nav {
+
+    padding: 35px 0;
+}
+
+.fixed-nav {
+
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.circle {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.homepage-body {
+    background: url("../images/katsuya1.jpg") no-repeat top center;
+    background-color: #FFFFFF;
+    background-size: cover;
+}
+/* TOP SECTION */
+.top-section {
+
+    height: 100%;
+}
+
+.top-section .bottom-logo {
+    
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+.top-section .bottom-logo span {
+    font-size: 10px;
+    letter-spacing: 9px;
+}
+.top-section .bottom-logo span:first-child {
+    margin-right: 20px;
+    margin-left: 12px;
+}
+.top-section .bottom-logo span:last-child {
+    margin-left: 35px;
+}
