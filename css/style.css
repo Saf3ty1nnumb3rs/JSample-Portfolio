@@ -166,7 +166,8 @@ letter-spacing: .08em;
     justify-self: start;
     align-self: end;
     font-size:9vh;
-    width: 100%;
+    padding-left: 2px;
+
 }
 .web-dev {
     grid-column:1;
@@ -177,7 +178,7 @@ letter-spacing: .08em;
 .olutions {
     grid-column: 3;
     grid-row:2;
-    padding-left: 4px;  
+    padding-left: 5px;  
 }
 .solutions {
     visibility: hidden;
@@ -251,6 +252,7 @@ letter-spacing: .08em;
 }
 .top-section .bottom-logo span:last-child {
     width:38%;
+    font-size: 20px;
     padding-left: 9px;
     margin-left: 20px;
     margin-right: 12px;
