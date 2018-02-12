@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Spectral+SC" rel="stylesheet">    
+    <link href="css/hamburgers.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -20,9 +22,12 @@
                     <span class="contact-build">
                         <a href="#" ><h2>Contact</h2></a>
                     </span>
-                    <button class="hamburger hamburger-effect" type="button">
-                        <span class="burger-box">
-                            <span class="burger-meat">
+                    <!-- The following hamburger button is the work of Jon Suh and used with permission. The MIT License (MIT) Copyright (c) 2016 Jonathan Suh <hello@jonsuh.com> (jonsuh.com) -->
+                    <button class="hamburger hamburger--arrowalt-r" type="button">
+                        <!-- give button is-active class on click in JS  -->
+                        <!-- Also, contact-build must switch to hidden/ opacity 0 -->
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner">
 
                             </span>
                         </span>
@@ -30,7 +35,18 @@
                 </div>
             </div>
         </nav>
-
+        <!-- toggle 'open' class on hamburger button click from JS see hamburger button above-->
+        <div class="menu-overlay">
+                <nav>
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" target="_blank">Home</a></li>
+                  </ul>
+                </nav>
+              </div>
 
 
 
@@ -41,13 +57,15 @@
             <div class="full">Full</div>
             <div class="s">S</div>
             <div class="tack">tack</div>
-            <div class="web">Web</div>
-            <div class="dev">Development</div> 
+            <div class="web-dev">Web Development</div> 
             <div class="olutions">olutions</div>
+            <div class="solutions">Solutions</div>
         </div>    
         <div class="bottom-logo">
             <span>DEVELOPED</span>
-            <img class="circle" src="" alt="">
+            <div>
+                <img class="circle" src="images/white.jpg" alt="filler">
+            </div>
             <span>2017</span>
         </div>
     </div>
