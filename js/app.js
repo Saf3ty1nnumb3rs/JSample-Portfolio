@@ -32,7 +32,7 @@ $(window).on('scroll', () => {
             console.log(scrollStart)
             console.log(offset.top)
             if(scrollStart > offset.top) {
-                $('#nav-fill>div').css({'background-color': 'rgba(126, 126, 126, 0.9)', 'z-index':'900', 'transition':'2s'});
+                $('#nav-fill>div').css({'background-color': 'rgba(126, 126, 126, 0.9)', 'z-index':'900', 'transition':'1s'});
             } else {
                $('#nav-fill>div').css('background-color', 'transparent');
             } 

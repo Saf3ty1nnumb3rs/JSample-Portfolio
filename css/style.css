@@ -314,7 +314,12 @@ letter-spacing: .08em;
     margin: 0 auto;
     padding: 0 8vw 0 8vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 28vh;
     font-family: 'Spectral SC', serif;
+}
+ul, li, .links-text {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
 }
