@@ -1,7 +1,7 @@
 
-* {
-    box-sizing: border-box;
-}
+/* *, ::after, ::before {
+    box-sizing: inherit;
+} */
 *:before, *:after {
 
     box-sizing: border-box;
@@ -111,7 +111,7 @@ ul li {
    justify-content: space-between;
 }
 .nav-logo {
-   font-family: 'Abril Fatface', cursive;
+   font-family: 'Spectral SC', serif;
 letter-spacing: .08em;
 }
 .right-menu {
@@ -224,19 +224,21 @@ letter-spacing: .08em;
 
     height: 100%;
 }
-.top-section h1 {
+.top-section h1, .footer h1 {
 
     position: relative;
     top: 38%;
     margin: 0;
    
 }
-.top-section .bottom-logo {
+.top-section .bottom-logo, .footer .foot-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     position: absolute;
+    }
+.top-section .bottom-logo {
     bottom: 10%;
     width: 100%;
 }
@@ -270,10 +272,49 @@ letter-spacing: .08em;
     margin: 0 auto;
     
 }
-
 .homepage-body {
     background: url("../images/katsuya1.jpg") no-repeat top center;
-    background-color: #FFFFFF;
+    background-color: rgb(221, 221, 221);
+    background-attachment: fixed;
     background-size: cover;
 }
+.footer {
+    height: 33vh;
+    bottom: 0;
+}
 
+.footer .foot-logo {
+
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    background-color: rgba(255, 177, 60, 0.719);
+    z-index: 3;
+}
+.footer .foot-logo span {
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.footer .foot-logo span:first-child {
+    width: 38%;
+    margin-right: 20px;
+    margin-left: 12px;
+    border-right: 4px solid rgba(255, 255, 255, 0.637);
+}
+.footer .foot-logo span:last-child {
+    width:38%;
+    font-size: 20px;
+    padding-left: 9px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-left: 4px solid rgba(255, 255, 255, 0.637);
+}
+.bottom-footer {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 8vw 0 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    font-family: 'Spectral SC', serif;
+}

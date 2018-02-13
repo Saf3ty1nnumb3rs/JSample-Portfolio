@@ -10,8 +10,8 @@
     <title>Document</title>
 </head>
 <body class="homepage-body">
-    <header class="primary-header">
-        <nav class="fixed-nav head-nav" role="navigation">
+    <header id="nav-fill" class="primary-header">
+        <div  class="nav fixed-nav head-nav" role="navigation">
             <div class="logo-box-container">
                 <div class="logo-case">
                     <a href="#">
@@ -34,27 +34,28 @@
                     </button>
                 </div>
             </div>
-        </nav>
+        </div>
+    </header>
         <!-- toggle 'open' class on hamburger button click from JS see hamburger button above-->
         <div class="menu-overlay">
-                <nav>
-                  <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#" target="_blank">Home</a></li>
-                  </ul>
-                </nav>
-              </div>
+            <nav>
+                <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" target="_blank">Home</a></li>
+                </ul>
+            </nav>
+        </div>
 
 
 
 
-    </header>
+    
     <div class="top-section">
         <div class="full-stack">
-            <div class="full">Full</div>
+            <div id="start-change" class="full">Full</div>
             <div class="s">S</div>
             <div class="tack">tack</div>
             <div class="web-dev">Web Development</div> 
@@ -69,6 +70,7 @@
             <span>2017</span>
         </div>
     </div>
+
     <!-- CONTENT AREA BELOW -->
     <section class="container">
         <div class="project-section">
@@ -93,6 +95,7 @@
 
 
 
+   
 
 
 
@@ -100,12 +103,54 @@
 
 
 
+<div class="footer">
+    <div class="foot-container">
+        <div class="foot-logo">
+            <span>DEVELOPED</span>
+            <div>
+                <img class="circle" src="images/white.jpg" alt="filler">
+            </div>
+            <span>2017</span>
+        </div>
+    </div>
+    <div class="about bottom-footer">
+            <div id="foot-col-1" class="links-text">
+                <h5>Contact</h5>
+                <div>
+                    <ul>
+                        <li>623 Gaskill St., Unit A</li>
+                        <li>Cabbagetown</li>
+                        <li>Atlanta, GA 30316</li>
+                        <li><i>josh@joshuawsample.com</i></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="foot-col-2" class="links-text">
+                    <h5>Substance</h5>
+                    <div>
+                        <ul>
+                            <li>About</li>
+                            <li>Work</li>
+                            <li>Services</li>
+                            <li>Home</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="foot-col-3" class="links-text">
+                        <h5>Social</h5>
+                        <div>
+                            <ul>
+                                <li>Twitter</li>
+                                <li>GitHub</li>
+                                <li>LinkedIn</li>
+                                <li>Instagram</li>
+                            </ul>
+                        </div>
+                    </div>
 
 
-
-
-
-
+    </div>
+</div>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
